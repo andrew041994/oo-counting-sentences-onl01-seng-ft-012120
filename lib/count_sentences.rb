@@ -1,7 +1,6 @@
 require 'pry'
 
 class String
-Sentences = [].count
   def sentence?
     self.end_with?(".")
 
@@ -18,9 +17,6 @@ Sentences = [].count
   end
 
   def count_sentences
-
-    if self.end_with?(".")
-      SENTENCES << self
-    end
+binding.pry
   end
 end
