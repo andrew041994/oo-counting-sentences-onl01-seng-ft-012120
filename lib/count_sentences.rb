@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-
+Sentences = []
   def sentence?
     self.end_with?(".")
 
@@ -18,10 +18,10 @@ class String
   end
 
   def count_sentences
-    sentences = []
+    
     if self.end_with?(".")
-      sentences << self
-      sentences.count
+      SENTENCES << self
+      SENTENCES.count
     end
   end
 end
