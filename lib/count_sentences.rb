@@ -18,7 +18,7 @@ Sentences = []
   end
 
   def count_sentences
-    
+
     if self.end_with?(".")
       SENTENCES << self
       SENTENCES.count
