@@ -22,6 +22,6 @@ class String
     if self.end_with?(".")
       sentences << self
       sentences.count
-
+    end
   end
 end
