@@ -20,8 +20,8 @@ class String
   def count_sentences
     sentences = []
     if self.end_with?(".")
-      sentences << self 
-      sentences.count 
+      sentences << self
+      sentences.count
 
   end
 end
