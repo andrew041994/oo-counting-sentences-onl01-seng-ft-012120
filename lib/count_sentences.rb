@@ -18,7 +18,10 @@ class String
   end
 
   def count_sentences
-    self.end_with?(".").size
+    sentences = []
+    if self.end_with?(".")
+      sentences << self 
+      sentences.count 
 
   end
 end
