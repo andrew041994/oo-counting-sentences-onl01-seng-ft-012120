@@ -18,7 +18,7 @@ class String
   end
 
   def count_sentences
-    self.size
+    self.end_with(".").size
 
   end
 end
